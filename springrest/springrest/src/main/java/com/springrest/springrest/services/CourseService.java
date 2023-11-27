@@ -18,5 +18,8 @@ public interface CourseService {
 	
 	//updating course
 	public Course updateCourse(Course course);
+	
+	//deleting course
+	public void deleteCourse(long courseId);
 
 }
